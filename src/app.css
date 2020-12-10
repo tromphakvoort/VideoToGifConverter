@@ -1,0 +1,40 @@
+@import "~antd/dist/antd.css";
+@import "bootstrap/dist/css/bootstrap.min.css";
+body,
+#root {
+  text-align: center;
+}
+
+.heading h1 {
+  color: white;
+  background-color: teal;
+  padding: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+.loading {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fileUpload {
+  margin-bottom: 50px;
+}
+
+.convertToGif {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+footer {
+  color: white;
+  background-color: teal;
+  padding: 50px;
+  text-transform: uppercase;
+  font-weight: 900;
+}
